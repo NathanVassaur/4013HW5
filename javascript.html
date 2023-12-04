@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Website</title>
+</head>
+<body>
+
+<h1>JavaScript Website</h1>
+
+<p>JavaScript elements.</p>
+
+
+<script>
+    alert("Alert Box");
+</script>
+
+
+<script>
+    console.log("Message to console log");
+</script>
+
+  
+<script>
+    document.getElementById("Elemenet to change").innerHTML = "Changed content";
+</script>
+
+
+<button onclick="myFunction()">Click me</button>
+<p id="demo-event">Changed text?</p>
+
+<script>
+    function myFunction() {
+        document.getElementById("demo-event").innerHTML = "Button clicked!";
+    }
+</script>
+
+<script>
+    var greeting = "Hello, ";
+    var name = "Name Here";
+    var message = greeting + name;
+    document.getElementById("output").innerHTML = message;
+</script>
+
+
+<p id="demo">Content to be changed.</p>
+
+<p id="output"></p>
+
+</body>
+</html>
